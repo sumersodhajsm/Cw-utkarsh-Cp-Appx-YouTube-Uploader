@@ -177,7 +177,7 @@ async def download_video(url,cmd, name):   #scammer
         return os.path.isfile.splitext[0] + "." + "mp4"   #scammer
    #scammer
 async def send_doc(bot: Client, m: Message,cc,ka,cc1,prog,count,name):   #scammer
-    reply = await m.reply_text(f"**⚡⚡⚡ᴜᴘʟᴏᴀᴅɪɴɢ ...**\n**📚❰Name❱**-`{name}` \n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™]**")   #scammer
+    reply = await m.reply_text(f"**⚡⚡⚡ᴜᴘʟᴏᴀᴅɪɴɢ ...**\n**📚❰Name❱**-`{name}` \n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ εѵεℓყɳ**")   #scammer
     time.sleep(1)   #scammer
     start_time = time.time()   #scammer
     await m.reply_document(ka,caption=cc1)   #scammer
@@ -189,7 +189,7 @@ async def send_doc(bot: Client, m: Message,cc,ka,cc1,prog,count,name):   #scamme
    #scammer
 async def send_vid(bot: Client, m: Message,cc,filename,thumb,name,prog):   #scammer
     await prog.delete (True)   #scammer
-    reply = await m.reply_text(f"**⚡⚡⚡ᴜᴘʟᴏᴀᴅɪɴɢ ...**\n\n**📚❰Name❱**-`{name}` \n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ [😎𝖘cᾰ𝗺𝗺ⲉ𝗿:)™]**\n-═════━‧₊˚❀༉‧₊˚.━═════-")   #scammer
+    reply = await m.reply_text(f"**⚡⚡⚡ᴜᴘʟᴏᴀᴅɪɴɢ ...**\n\n**📚❰Name❱**-`{name}` \n\n **ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ εѵεℓყɳ**\n-═════━‧₊˚❀༉‧₊˚.━═════-")   #scammer
     subprocess.run(f'ffmpeg -i "{filename}" -ss 00:01:00 -vframes 1 "{filename}.jpg"', shell=True)   #scammer
     
     try:   
