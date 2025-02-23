@@ -48,7 +48,7 @@ bot = Client("bot",
    api_hash= "bc79c3bea7a626887bdc0871eecf0327"
 )
 
-@bot.on_message(filters.command(["started"]))    
+@bot.on_message(filters.command(["start"]))    
 async def account_login(bot: Client, m: Message):    
     editable = await m.reply_text("**👋 ʜᴇʟʟᴏ!\n🌟ɪ ᴀᴍ ᴛxᴛ ꜰɪʟᴇ ᴅᴏᴡʟᴏᴀᴅᴇʀ ʙᴏᴛ** \n\n❤️‍🔥 **ᴘʀᴇꜱꜱ /Ak47 ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ʙʏ ᴛxᴛ**\n\n❤️‍🩹 **ᴊᴏɪɴ ᴏᴜʀ <a href='https://t.me/'>ᴛᴇʟᴇɢʀᴀᴍ ᴄʜᴀɴɴᴇʟ</a>** \n\n<pre>💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : https://t.me/ScmersHell</pre>\n-═════━‧₊˚❀༉‧₊˚.━═════-") 
 
